@@ -34,7 +34,8 @@ runs:
     - name: Deploy Badges
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: "Update badges [skip ci]"
+        commit_message: "Update badges"
+        branch: gh-pages
         skip_fetch: true
         skip_checkout: true
 
